@@ -1,5 +1,6 @@
 # ButonKontrolPaneli
 YAZILIM MÜHENDİSLİĞİ BÖLÜMÜ NESNEYE YÖNELİK PROGRAMLAMA DERSİ 1. KISA  SINAV 2. ÖDEVİ
+
 KODUN CALISMA MANTIGI (ALGORİTMASI)
 İlk önce ana pencereyi(jframe) oluştururuz. Bunu **`ButonKontrolPaneli`** sınıfı, bir **`JFrame`** öğesini miras alır (extends) ve pencerenin başlığını
 
