@@ -1,7 +1,8 @@
 # ButonKontrolPaneli
 YAZILIM MÜHENDİSLİĞİ BÖLÜMÜ NESNEYE YÖNELİK PROGRAMLAMA DERSİ 1. KISA  SINAV 2. ÖDEVİ
 
-KODUN CALISMA MANTIGI (ALGORİTMASI)
+KODUN CALISMA MANTIGI (ALGORİTMASI) :
+
 İlk önce ana pencereyi(jframe) oluştururuz. Bunu **`ButonKontrolPaneli`** sınıfı, bir **`JFrame`** öğesini miras alır (extends) ve pencerenin başlığını
 
 **`ButonKontrolPaneli`**  sınıfının constructırı içinde belirtiriz(buton kontrol paneli) Pencere düzeni **`GridLayout`** kullanılarak belirlenir ve bir 4x4'lük matris oluşturularak her bir hücreye bir **`ButonOzellik`** eklenir.Sonra ise,
@@ -20,6 +21,7 @@ Kodu calıştırdığımızda 4*4 düzeninde karşımıza butonlar’dan oluşan
 
 Herhangi bir butona tıkladığınızda o buton aktif olup  rengi ve ikonu aktif ikon ve renge göre ayarlanacak burda aktif rengimiz yeşildir  ve başka aktif olan buton varsa pasif hale gelecek sadece tıkladığınız buton aktif hale gelecek ve butona tıkladığnızda hayali graphql işlemleri gercekleşecek ve bu işlemler konsolda yazacak.
 GRAPHQL MUTATİON SORGUSU AÇIKLAMASI :
+
 Bu koddaki graphql ’den bahsetmeden önce graphql hakkında biraz bilgi vermek gerekirse kısaca graphql 2012’de facebook tarafından geliştirilmiştir ve 2015 de açık kaynaklı olmuştur.Graphql bir veri sorgulama dili olup ve genellikle bir API’nin arka planında kullanılır.Graphql herhangi bir veritabanına veya depolama motoruna bağlı değildir ve bunun yerine mevcut kodunuz ve verilerinizle desteklenir.GraphQL’in kısa tanımı şöyledir: “Query language for your API” yani “API’niz için bir sorgulama dili”. GraphQL, sunucudan veri çekerken istemcilere tam olarak istediklerini vermeyi önceliklen diren bir sorgu dilidir. İstemciler, sunucuya bir şema üzerinden hangi alanları istediklerine göre bir sorgu oluşturur. Sunucu, bu sorguyu işler ve yalnızca istenilen verileri yanıt olarak gönderir.esnek bir yapısı vardır 
 
 Graphql sorgusunda aslında mantık temel olarak baz alırsak çok basittir.Graphqlde sorgu ile sonuç birbirine cok benzerdir bu graphql için önemlidir çünkü herzaman beklediğinizi alırsınız ve sunucu tam olarak hangi alanları istediğinizi bilir mesela burdaki kodda ise sadece yeniKullanici adındaki mutation sorgusu ile sadece id ve isim bilgisi döner.
