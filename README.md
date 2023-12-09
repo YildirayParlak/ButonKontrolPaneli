@@ -20,6 +20,7 @@ Nasıl Kullanacağız ve Test Edeceğiz:
 Kodu calıştırdığımızda 4*4 düzeninde karşımıza butonlar’dan oluşan bir pencere çıkacak ve ilk basta bütün butonlar pasif halde olacak ve ekranda pasif ikonları ve renkleri göreceksiniz burada pasif renk kırmızıdır. 
 
 Herhangi bir butona tıkladığınızda o buton aktif olup  rengi ve ikonu aktif ikon ve renge göre ayarlanacak burda aktif rengimiz yeşildir  ve başka aktif olan buton varsa pasif hale gelecek sadece tıkladığınız buton aktif hale gelecek ve butona tıkladığnızda hayali graphql işlemleri gercekleşecek ve bu işlemler konsolda yazacak.
+
 GRAPHQL MUTATİON SORGUSU AÇIKLAMASI :
 
 Bu koddaki graphql ’den bahsetmeden önce graphql hakkında biraz bilgi vermek gerekirse kısaca graphql 2012’de facebook tarafından geliştirilmiştir ve 2015 de açık kaynaklı olmuştur.Graphql bir veri sorgulama dili olup ve genellikle bir API’nin arka planında kullanılır.Graphql herhangi bir veritabanına veya depolama motoruna bağlı değildir ve bunun yerine mevcut kodunuz ve verilerinizle desteklenir.GraphQL’in kısa tanımı şöyledir: “Query language for your API” yani “API’niz için bir sorgulama dili”. GraphQL, sunucudan veri çekerken istemcilere tam olarak istediklerini vermeyi önceliklen diren bir sorgu dilidir. İstemciler, sunucuya bir şema üzerinden hangi alanları istediklerine göre bir sorgu oluşturur. Sunucu, bu sorguyu işler ve yalnızca istenilen verileri yanıt olarak gönderir.esnek bir yapısı vardır 
